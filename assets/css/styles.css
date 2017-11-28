@@ -52,6 +52,7 @@ body{
 }
 .heading{
     text-align: center;
+    padding-left: 20px;
 }
 .heading hr{
     width: 60px;
