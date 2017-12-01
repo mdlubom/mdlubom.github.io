@@ -10,10 +10,14 @@ strong{
 body{
     background-color: #fcfcfc;
 }
+.black{
+  color: #000;
+  text-decoration: underline;
+}
 /* Page grid */
 .container{
     display: block;
-    font-family: 'Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
     box-sizing: border-box;
     position: relative;
     overflow: auto;
@@ -52,10 +56,10 @@ body{
 }
 .heading{
     text-align: center;
-    padding-left: 50px;
+    font-family: "Font-Awesome";
 }
 .heading hr{
-    width: 60px;
+    width: 50%;
 }
 /* nav */
 nav{
@@ -134,7 +138,7 @@ li a{
 }
 h6 i .fa{
     font-size: 25px;
-    
+
 }
 .work .job span{
     font-size: 17px;
@@ -197,7 +201,7 @@ h3{
 }
 ul li{
     font-size: 15px;
-    
+
 }
 .academics li a{
     display: inline;
@@ -209,7 +213,7 @@ ul li{
 h5{
     font-size: 17px;
     color: rgba(128, 128, 128, 0.68);
-    
+
     text-transform: uppercase;
     margin: 5px 0;
 }
@@ -225,7 +229,7 @@ h5{
 }
 .ref,.job,.edu,.about_me,.header{
     margin-bottom: 20px;
-    
+
 }
 .ref h5{
     padding: 5px;
