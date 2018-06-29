@@ -1,317 +1,180 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" >
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Mandisa Dlubom">
-    <title>Mandisa|resume</title>
-    <link rel="stylesheet"  type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/media_queries.css">
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" type="image" href="assets/images/mdlubom.jpg">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <meta charset="UTF-8">
+  <title>CV</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css'>
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-<div class="container">
-    <!-- Left side container -->
-    <div class="left" id="head">
-        <!-- background image -->
-        <div class="image">
-            <img src="assets/images/mandi.jpg">
-        </div>
-        <div class="heading">
-            <p><strong>MANDISA DLUBOM</strong></p>
-            <hr>
-            <p class="title">JUNIOR WEB DEVELOPER</p>
-        </div>
-        <!-- nav -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="#" class="menu">&#9776;</a>
-                    <ul class="nav">
-                        <li><a href="#about"><i class="fa fa-address-book-o"> About Me</i></a></li>
-                        <li><a href="#education"><i class="fa fa-certificate"> Education</i></a></li>
-                        <li><a href="#work"><i class="fa">&#xf0b1; Experience</i></a></li>
-                        <li><a href="#portfolio"><i class="fa fa-code"> Portfolio</i></a></li>
-                        <li><a href="#contact"><i class="fa">&#xf0e0; Contact</i></a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-        <!-- portfolio -->
-        <div class="portfolio" id="portfolio">
-            <h3><i class="fa fa-code"> Portfolio</i></h3>
-            <!-- sample work -->
-            <div class="project nav">
-                <h2 class="links">Links to some of my work</h2>
-                <a href="https://github.com/mdlubom/Redesa_Newsletter" target="_blank"><i class="fa fa-github"> Redesa Newsletter</i></a>
-                <a href="https://github.com/mdlubom/COCT" target="_blank"><i class="fa fa-github"> City of Cape Town Newsletter</i></a>
-                <a href="https://github.com/mdlubom/sanlam_form" target="_blank"><i class="fa fa-github"> Sanlam page</i></a>
-                <a href="https://github.com/mdlubom/Old-Mutual-2-in-one-Plan" target="_blank"><i class="fa fa-github"> Old Mutual 2-in-one Plan</i></a>
-            </div>
-            <div class="clear_fixer"></div>
-            <br/>
-            <div class="project nav">
-                <h2 class="links">Github account</h2> 
-                <a href="https://github.com/mdlubom" target="_blank"><i class="fa fa-github"> Mandisa Dlubom</i></a>
-            </div>
-            <div class="clear_fixer"></div>
-            <div class="skillsContainer">
-                <p>HTML</p>
-                <div class="skill_container">
-                    <div class="skills html">90%</div>
-                </div>
-                <p>CSS</p>
-                <div class="skill_container">
-                    <div class="skills css">80%</div>
-                </div>
-                <p>JavaScript</p>
-                <div class="skill_container">
-                    <div class="skills js">70%</div>
-                </div>
-                <p>JQuery</p>
-                <div class="skill_container">
-                    <div class="skills jquery">60%</div>
-                </div>
-                <p>SQL</p>
-                <div class="skill_container">
-                    <div class="skills sql">60%</div>
-                </div>
-                <p>PHP</p>
-                <div class="skill_container">
-                    <div class="skills php">70%</div>
-                </div>
-            </div>
-        </div>
-        <!-- contact -->
-        <div class="contact" id="contact">
-            <h3><i class="fa">&#xf0e0; contact me :</i></h3>
-            <ul>
-                <li><a href="mailto:mdlubom@gmail.com" target="_top"><i class="fa">&#xf0e0; mdlubom@gmail.com</i></a></li>
-                <li><a href="tel:0748164551" target="_top"><i class="fa">&#xf095; 0748164551</i></a></li>
-                <li><a href="https://www.linkedin.com/in/mandisa-d-3233889b/" target="_blank"><i class="fa">&#xf08c; Mandisa Dlubom</i></a></li>
-            </ul>
-        </div>
-        <!-- References -->
-        <div class="refs" id="refs">
-            <div class="ref_heading">
-                <h3><i class="fa fa-vcard-o">  References : </i> </h3>
-            </div>
-            <div class="ref">
-                <p>Brett Toerien</p>
-                <span><h6>Hero Digital Chief Technical Office</h6></span>
-                <i  class="fa"><a href="mailto:brett@hero.co.za" target="_top">&#xf0e0; brett@hero.co.za</a> </i>
-            </div>
-            <div class="ref">
-                <p>Clint Clark</p>
-                <span><h6>CodeSpace Academy Founder</h6></span>
-                <i  class="fa"><a href="mailto:clint@codespace.co.za" target="_top"> &#xf0e0; clint@codespace.co.za</a></i>
-            </div>
-            <div class="ref">
-                <p>Emma Dicks</p>
-                <span><h6>Code4CT Founder and Director</h6></span>
-                <i  class="fa"><a  href="mailto:emma@code4ct.com" target="_top">&#xf0e0; emma@code4ct.com </a></i>
-            </div>
-        </div>
-
+  <main id="main" class="main">
+  <section class="cover-page active center-item animated">
+    <div class="cover-block">
+      <h1>Mandisa Dlubom
+      </h1>
+      <span class="job-title">Web Developer</span>
+      <div class="cv-btn center-item">cv</div>
     </div>
-    <!-- Right side container -->
-    <div class="right" id="about">
-        <!-- My personal statement -->
-        <div class="about">
-            <h3><i class="fa fa-address-book-o"> About Me : </i></h3>
-            <div class="about_me">
-                <p class="briefIntro">
-                    I'm a junior web developer, a logical and analytical thinker with a rational approach to problem solving.
-                    <br> I'm confident and strive to undertake each web development project with great effort, diligence and effectiveness, while paying careful attention to detail.
-                    I'm always willing to learn, be flexible and unafraid to commit.
-                </p>
-            </div>
+  </section>
+
+  <section class="cv animated">
+    <section class="header">
+      <img src="https://raw.githubusercontent.com/mdlubom/mdlubom_resume/master/assets/images/mandi.jpg" alt="" class="profile-img">
+      <div class="name-and-title">
+        <h1>Mandisa Dlubom</h1>
+        <h4 class="cv-job-title">Web Developer</h4>
+        <div class="contact">
+          <a href="https://s.codepen.io/Mandisa/" target="_blank"><i class="fa fa-codepen"> </i> Mandisa CodePen</a>
+          <a href="https://github.com/mdlubom" target="_blank"><i class="fa fa-github"></i> mdlubom GitHub</a>
+          <a href="mailTo:mdlubom@gmail.com" target="_top"><i class="fa"></i> mdlubom@gmail.com</a>
         </div>
-        <!-- Education -->
-        <div class="education" id="education">
-            <h3><i class="fa fa-certificate"> EDUCATION : </i></h3>
-            <!-- CodeSpace Academy -->
-            <div class="edu codespace">
-                <h5><i class="fa">&#xf19d; CodeSpace Academy :</i></h5>
-                <h6><i class="fa fa-calendar"></i> February 2017 - July 2017 :</h6>
-                <p class="info">A 6 month full-time course that focusses on in-depth web languages, in both front-end and back-end, as well as professional development and Design Thinking.</p>
-                <div class="code_space">
-                    <div class="languages">
-                        <h5><span> Programming Languages :</span></h5>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JQuery</li>
-                            <li>JavaScript</li>
+      </div>
+    </section>
 
-                            <li>PHP</li>
-                            <li>MySQL</li>
-                        </ul>
-                    </div>
-                    <div class="frameworks">
-                        <h5>Frameworks :</h5>
-                        <ul>
-                            <li>WordPress</li>
-                            <li>Skeleton</li>
-                            <li>Bootstrap</li>
-                        </ul>
-                    </div>
-                    <div class="clear_fixer"></div>
-                </div>
-            </div>
-            <!-- High School -->
-            <div class=" edu edu_heading">
-                <h5><i  class="fa font">&#xf19d; High school</i></h5>
-                <p class="info"><i class="fa fa-calendar"></i> 2011(grade 8) - 2015 (grade
-                    12) :
-                </p>
-                <p class="spacer"><i class="fa">&#xf19d; Centre Of Science And Technology (COSAT) : Khayelitsha</i></p>
-                <h5>Main Subjects</h5>
-                <ul>
-                    <li>Information Technology (Java during grade 11-12)</li>
-                    <li>Mathematics</li>
-                    <li>Physical Science</li>
-                    <li>Life Science</li>
-                    <li>English First Additional Language: A aggregate</li>
+    <section class="about">
+      <h3><i class="fa fa-user"></i> Profile:</h3>
+      <p>I'm a front-end developer intern at Responsive Digital, a logical and analytical thinker with a rational approach to problem-solving. I'm a confident young woman, who strives to undertake each web development project with great effort, diligence
+        and effectiveness while paying careful attention to detail. I'm always willing to learn, be flexible and unafraid to commit.
+      </p>
+    </section>
 
-                </ul>
-            </div>
+    <section class="work-experience">
+      <h3><i class="fa fa-code"></i> Work Experience: </h3>
+
+      <article class="content-and-date">
+        <div class="date"><i class="fa fa-calendar"></i> 15 January 2018- Present</div>
+        <div>
+          <h4><i class="fa fa-briefcase"> </i> Responsive Digital - Intern: </h4>
+          <p>
+            I'm currently a front-end developer intern at Responsive Digital. I have a privilege of having a wise and hardworking mentor and a team of self-motivated developers that are always keen to share their knowledge with me.
+          </p>
+          <p>Being in this healthy motivational environment, compels me to strive and give each project my very best effort and simultaniously grow mentally.</p>
         </div>
-        <!-- Work experience -->
-        <div class="work" id="work">
-            <h3><i class="fa">&#xf0b1; Work Experience: </i></h3>
-            <div class="job">
-                <h5><a href="www.hero.co.za" target="_blank" class="black">HERO DIGITAL INTERN</a></h5>
-                <h6><i class="fa fa-calendar"></i> 01 September 2017 - 30 November 2017</h6>
-                <p class="info">
-                    During my internship with Hero I was lucky to shadow some of their senior developers, enhancing my developing skills in the process.
-                    I focused mainly on front-end web development and thoroughly enjoyed applying what I learned in my studies to a hands-on work environment.
+      </article>
+      <article class="content-and-date">
+        <div class="date"><i class="fa fa-calendar"></i> July 2017 - Present</div>
+        <div>
+          <h4><i class="fa fa-code"> </i> CODE FOR CAPE TOWN (CODE4CT): FACILITATOR
+          </h4>
+          <p>
+            Code4CT equips high potential female learners with the coding, problem-solving and life skills that will allow them to leverage technology to contribute meaningfully to South Africa’s innovation system.
+            <br>
+            <br> During my role as a Code Camp facilitator, I took on the following responsibilities:
+          </p>
+          <ul>
+            <li>Running Raspberry Pi workshops for the learners (grade 10 girls)</li>
+            <li>Acting as a support facilitator for Design Thinking workshops</li>
+            <li>Supporting and managing learners in the hostel and generally supporting them in their personal development.</li>
+          </ul>
 
-                </p>
-            </div>
-            <div class="job">
-                <h5><a href="www.code4ct.com" target="_blank" class="black">CODE FOR CAPE TOWN (CODE4CT) FACILITATOR</a></h5>
-                <h6 class="briefIntro"><i class="fa fa-calendar"></i> July 2017 - August 2017</h6>
-                <p class="briefIntro">
-                  Code4CT equips high potential female learners with the coding,
-                    problem solving and life skills that will allow them to leverage technology to contribute
-                    meaningfully to South Africa’s innovation system.
-
-                  <br/>
-                  <br/>
-                  During my role as a Code Camp facilitator, I took on the following responsibilities:
-                  <ul class="spacer">
-                    <li>Running Raspberry Pi workshops for the learners (grade 10 girls)</li>
-                    <li>Acting as a support facilitator for Design Thinking workshops</li>
-                    <li>Supporting and managing learners in the hostel and generally supporting them in their personal development</li>
-                  </ul>
-
-
-
-                </p>
-            </div>
+          <p>
+            I volunteer on some Saturdays to represent Code4CT as their ambassador, facilitate or head a workshop. These workshops are for female learners as mentioned above, and it is my way of giving back to the organisation and giving the learners an opportunity
+            that was once given to me.
+          </p>
         </div>
-
-        <div class="education">
-            <div class="edu academics">
-                <h3><i class="fa fa-th-list"></i> Academic Achievements :</h3>
-                <div class="slideshow-container">
-
-                    <div class="mySlides fade">
-                        <div class="numberText">06 November 2017</div>
-                        <div class="imageAndInfo">
-                            <div class="imgSlider">
-                                <img src="assets/images/img1.jpg">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mySlides fade">
-                        <div class="numberText"> June 2014 </div>
-                        <div class="imageAndInfo">
-                            <div class="imgSlider">
-                                <img src="assets/images/img2.jpg">
-                            </div>
-                            <div class="text">
-                                <h2 class="text">First Web Development course at age of 17 with Code for Cape Town.</h2>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mySlides fade">
-                        <div class="numberText"> August 2017 </div>
-                        <div class="imageAndInfo">
-                            <div class="imgSlider">
-                                <img src="assets/images/img3.jpg">
-                            </div>
-                            <div class="text">
-                                <h2 class="text">Facilitating at Code for Cape Town camp.</h2>
-                            </div>
-                        </div>
-                    </div>
-
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-                    <div class="dots">
-                        <span class="dot" onclick="currentSlide(1)"></span>
-                        <span class="dot" onclick="currentSlide(2)"></span>
-                        <span class="dot lastDot" onclick="currentSlide(3)"></span>
-                    </div>
-                </div>
-                <!-- end Slide images-->
-
-                <ul>
-
-                    <li>Completed a 2 week Web Development course at the age of 17 with <a href="http://code4ct.com/" target="_blank">Code for Cape Town</a> camp in 2014.</li>
-                    <li>Graduated from a 6 month Web Development course at <a href="http://codespace.co.za/courses/web-academy/" target="_blank">CodeSpace Academy</a>.</li>
-                    <li>10 October 2017: I was a panelist at the EdTech Cluster Launch, as a Young Woman in Tech and Code4CT alumna, at  their first Cohort of <a href="http://injini.co.za/" target="_blank">Injini</a>. This was hosted at UCT and over 600 people attended the event.</li>
-                    <li>Job shadowed the Hero development team for a week and thereafter was appointed as an intern.</li>
-
-
-
-
-                </ul>
-            </div>
+      </article>
+      <article class="content-and-date">
+        <div class="date"><i class="fa fa-calendar"></i> 01 September 2017 - 30 November 2017</div>
+        <div>
+          <h4><i class="fa fa-briefcase"></i> Hero Degital: Intern</h4>
+          <p>During my internship at Hero Digital, I was lucky to shadow some of their senior developers and enhancing my development skills in the process. I focused mainly on front-end web development and thoroughly enjoyed applying what I learned in my
+            studies to a hands-on work environment.</p>
         </div>
-    </div>
-</div>
+      </article>
+    </section>
+
+    <section class="education">
+      <h3><i class="fa fa-certificate"></i> Education:</h3>
+      <!-- CodeSpace Academy -->
+      <article class="content-and-date">
+        <div class="date"><i class="fa fa-calendar"></i> February 2017 - July 2017 </div>
+        <div>
+          <h4><i class="fa"></i> CodeSpace Academy :</h4>
+          <p class="info">A 6 month full-time course that focused on in-depth web languages, in both front-end and back-end, as well as professional development and Design Thinking.</p>
+
+          <h4>Tech Exposure : </h4>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JQuery</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>Skeleton</li>
+            <li>Bootstrap 3 & 4</li>
+            <li>WordPress</li>
+          </ul>
+        </div>
+      </article>
+      <article class="content-and-date">
+        <div class="date"><i class="fa fa-calendar"> </i> 2011(grd 8) - 2015(grd 12)
+        </div>
+        <div>
+          <h4><i class="fa font"></i> Centre Of Science And Technology (COSAT) : </h4>
+          <p>COSAT is a Dinaledi(science) high school situated in Khayelitshai in iLitha Park. It is the only school in Khayelitsha that offers Information Technology.</p>
+          <ul>
+            <span>Main subjects :</span>
+            <li>Information Technology (Java)</li>
+            <li>Mathematics</li>
+            <li>Physical Science</li>
+            <li>Life Science</li>
+            <li>English First Additional Language: A aggregate</li>
+            <li>IsiXhosa Home Language: B aggregate</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <section class="achievements">
+      <h3><i class="fa fa-trophy"></i> Achievements:</h3>
+      <p>I view achievements as things that should be celebrated and I feel that everything good thing should be celebrated no matter the scale of it.</p>
+      <ul>
+        <li>I have recently been given a chance to tell my story and <a href="https://www.goresponsive.com/article/not-just-an-intern-mandisas-story">here</a> you can have a read about it.</li>
+        <li>Me and my team mates came second on a 24hr Womxn Hackathon hosted by <a href="http://code4ct.com/news/code4ct-stars/code4ct-team-takes-second-place-in-mental-health-hackathon/" target="_blank">wics_uct(Woman In Computer Science)</a> on the 14th
+          April 2018, read about it <a href="http://code4ct.com/news/code4ct-stars/code4ct-team-takes-second-place-in-mental-health-hackathon/">here</a>.</li>
+        <li>Completed a 2 week Web Development course at the age of 17 with <a href="http://code4ct.com/" target="_blank">Code for Cape Town</a> camp in 2014.</li>
+        <li>Graduated from a 6 month Web Development course at <a href="http://codespace.co.za/courses/web-academy/" target="_blank">CodeSpace Academy</a>.</li>
+        <li>10 October 2017: I was a panelist at the EdTech Cluster Launch, as a Young Woman in Tech and Code4CT alumna, at their first Cohort of <a href="http://injini.co.za/" target="_blank">Injini</a>. This was hosted at UCT and over 600 people attended
+          the event.</li>
+        <li>Job shadowed the Hero development team for a week and thereafter was appointed as an intern.</li>
+      </ul>
+    </section>
+
+    <section class="references">
+      <h3><i class="fa fa-vcard-o">  </i> References :</h3>
+      <div class="reference">
+        <div class="ref">
+          <p>Brett Toerien</p>
+          <span>Hero Digital Chief Technical Officer</span>
+          <p><a href="mailto:brett@hero.co.za" target="_top"><i class="fa"></i> brett@hero.co.za </a></p>
+        </div>
+        <div class="ref">
+          <p>Clint Clark</p>
+          <span>CodeSpace Academy Founder</span>
+          <p><a href="mailto:clint@codespace.co.za" target="_top"><i class="fa"> </i> clint@codespace.co.za</a></p>
+        </div>
+        <div class="ref">
+          <p>Emma Dicks</p>
+          <span>Code4CT Founder and Director</span>
+          <p><a href="mailto:emma@code4ct.com" target="_top"><i class="fa"></i> emma@code4ct.com </a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <a href="tel:0748164551" target="_top"><i class="fa"></i> 0748164551</a>
+      <a href="https://www.linkedin.com/in/mandisa-d-3233889b/" target="_blank"><i class="fa"> </i> Mandisa Dlubom</a>
+      <a href="mailTo:mdlubom@gmail.com" target="_top"><i class="fa"></i> mdlubom@gmail.com</a>
+    </footer>
+  </section>
+</main>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script  src="js/main.js"></script>
 </body>
 </html>
-
-<script type="text/javascript">
-    var slideIndex = 1;
-    showSlides(slideIndex);
-
-    function plusSlides(n) {
-        showSlides(slideIndex += n);
-    }
-
-    function currentSlide(n) {
-        showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {
-            slideIndex = 1;
-        }
-        if (n < 1) {
-            slideIndex = slides.length;
-        }
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
-    }
-</script>
