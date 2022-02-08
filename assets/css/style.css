@@ -281,7 +281,7 @@ article + article {
   }
 
   .job-title::before {
-    content: "Junior ";
+    content: "";
   }
 
   /* CV */
