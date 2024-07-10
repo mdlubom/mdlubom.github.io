@@ -237,7 +237,7 @@ article + article {
   line-height: 2.5rem;
 }
 
-.achievements h3 {
+.volunteer h3 {
   margin-bottom: 2rem;
 }
 
@@ -306,7 +306,6 @@ article + article {
   .cv-job-title {
     border: 1px solid var(--white);
     border-width: 1px 0 1px 0;
-    width: 50%;
   }
 
   .footer {
